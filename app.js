@@ -16,17 +16,17 @@ yargs.command(
                 demandOption:true
             },
             subject:{
-                descripe:'this the subject  the student to be added',
+                descripe:'this the subject of the student to be added',
                 type:'string',
                 demandOption:true
             },
             grade:{
-                descripe:'this the grade  the student to be added',
+                descripe:'this the grade of the student to be added',
                 type:'number',
                 demandOption:true
             },
             comment:{
-                descripe:'this the comment the student to be added',
+                descripe:'this the comment of the student to be added',
                 type:'string',
                 demandOption:true,
                 default:''
